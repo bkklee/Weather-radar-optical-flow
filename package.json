@@ -1,0 +1,24 @@
+{
+  "name": "weather-radar-optical-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecat2001a/Weather-radar-optical-flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leecat2001a/Weather-radar-optical-flow/issues"
+  },
+  "homepage": "https://github.com/leecat2001a/Weather-radar-optical-flow#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jimp": "^0.6.4",
+    "request": "^2.88.0"
+  }
+}
