@@ -32,7 +32,7 @@ function colorToPrecipitation(r,g,b){
 }
 
 app.get("/", function(req, res){
-	Jimp.read('https://www.hko.gov.hk/wxinfo/radars/rad_128_png/2d128iradar_201906012136.jpg', function (err, image) {
+	Jimp.read('https://www.hko.gov.hk/wxinfo/radars/rad_128_png/2d128iradar_201906021424.jpg', function (err, image) {
 		var tmp = "";
 		var i,j,x,y;
 		for(j=0;j<gridNum;j++){
@@ -50,7 +50,7 @@ app.get("/", function(req, res){
 		}
 
 		fs.writeFile(path.join(__dirname + "/rainmapnow.txt"), tmp, function(err){
-			Jimp.read('https://www.hko.gov.hk/wxinfo/radars/rad_128_png/2d128iradar_201906012148.jpg', function (err, image) {
+			Jimp.read('https://www.hko.gov.hk/wxinfo/radars/rad_128_png/2d128iradar_201906021436.jpg', function (err, image) {
 				tmp = "";
 				var i,j,x,y;
 				for(j=0;j<gridNum;j++){
