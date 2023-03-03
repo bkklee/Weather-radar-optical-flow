@@ -18,7 +18,7 @@
   "homepage": "https://github.com/leecat2001a/Weather-radar-optical-flow#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jimp": "^0.6.4",
+    "jimp": "^0.22.7",
     "request": "^2.88.0"
   }
 }
